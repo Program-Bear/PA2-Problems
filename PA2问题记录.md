@@ -14,7 +14,19 @@ complex 只支持+ 和\*运算，其余的操作都不支持
 
 3\. case 的类型
 
-case的类型以default 为准。
+case的类型以default 为准。 
+
+违反README中三条要求任意一条都会返回ERROR 
+
+default 为ERROR时，case的type也为ERROR.此时Ci和Ei的分析不能停。 
+
+如果Ci和Ei是ERROR，则相应的在case中不再报错。
+
+如下代码应报错为：
+
+![](resources/4C4D613CCCA0FD733A787B45BFD0BA6D.jpg)
+
+![](resources/98D722960E2C742A18D735563F9AD2F1.jpg)
 
 4\. super 的类型判断。
 
