@@ -1,3 +1,9 @@
+关于runall脚本的问题：   
+Yuhui 助教您好，这次作业的runall.py在macos上无法正常运行，经过检查发现在runall.py代码里： def read_txt_file(filename):
+    with open(filename,'a+') as f: 需要改为 def read_txt_file(filename):
+    with open(filename,'r') as f:
+另外，如果python3报错，请将两行print语句注释掉 
+
 1\. 关于出错返回的问题：
 
 单目运算符和双目运算符发生无法运算的情况即返回ERROR。操作数中含有Error，直接返回ERROR，不再报错。
