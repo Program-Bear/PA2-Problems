@@ -22,7 +22,7 @@ complex 只支持+ 和\*运算，其余的操作都不支持
 
 case的类型以default 为准。 
 
-违反README中四条要求任意一条都会返回ERROR 
+违反README中四条要求任意一条都会返回ERROR。 如果E是ERROR，case的类型不是ERROR。
 
 default 为ERROR时，case的type也为ERROR.此时Ci和Ei的分析不能停。 
 
