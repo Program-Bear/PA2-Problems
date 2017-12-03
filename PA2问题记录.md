@@ -10,7 +10,7 @@ Yuhui 助教您好，这次作业的runall.py在macos上无法正常运行，经
 
 关于ERROR的判断和返回，在checkBinaryOp和visitUnary函数的开始加入判断，发现操作数中有ERROR，直接返回ERROR。
 
-![](resources/B3D7F21168FD1CD2C0ECF2B4F2CC3235.jpg)
+![](resources/995C779A580B396A5F6F13F5172E001A.jpg)
 
 ![](resources/88D3194DF96D961FF3505F656CD7C41E.jpg)
 
