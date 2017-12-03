@@ -41,3 +41,5 @@ super 只有在负责调用时是父类，其余时候均是当做类似this的�
 ![](resources/3610BFB416CE63453E072826E743E33B.jpg)
 
 super进行函数调用时找不到相应的函数，报直接父类的错误。
+
+5\. Do test2 中有一处typo将request写成了requestd。维持这个错误即可。
