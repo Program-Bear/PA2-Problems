@@ -8,7 +8,7 @@ Yuhui 助教您好，这次作业的runall.py在macos上无法正常运行，经
 
 单目运算符和双目运算符发生无法运算的情况即返回ERROR。操作数中含有Error，直接返回ERROR，不再报错。
 
-关于ERROR的判断和返回，在checkBinaryOp和visitUnary函数的前面加入判断，发现操作数中有ERROR，直接返回ERROR。
+关于ERROR的判断和返回，在checkBinaryOp和visitUnary函数的开始加入判断，发现操作数中有ERROR，直接返回ERROR。
 
 ![](resources/AC4C5BDAE63A2DF7A96C4781734378E2.jpg)
 
