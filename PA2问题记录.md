@@ -12,7 +12,7 @@ Yuhui 助教您好，这次作业的runall.py在macos上无法正常运行，经
 
 ![](resources/AC4C5BDAE63A2DF7A96C4781734378E2.jpg)
 
-![](resources/63CF1FDA47B72A8248B3E565E2DC4769.jpg)
+![](resources/88D3194DF96D961FF3505F656CD7C41E.jpg)
 
 2\. 关于Complex 比较问题
 
