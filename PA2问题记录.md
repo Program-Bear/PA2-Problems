@@ -38,7 +38,7 @@ default 为ERROR时，case的type也为ERROR.此时Ci和Ei的分析不能停。
 
 4\. super 的类型判断。
 
-super 只有在负责调用时是父类，其余时候均是当做类似this的存在。
+super 只有在负责调用时是父类，其余时候均是当做类似this的存在。super支持赋值运算。
 
 ![](resources/3610BFB416CE63453E072826E743E33B.jpg)
 
